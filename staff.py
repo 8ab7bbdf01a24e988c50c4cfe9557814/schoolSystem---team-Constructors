@@ -1,19 +1,20 @@
 #Create a Staff class in this file
 #Accept and assign agreed parameters in the constructor and define agreed public methods in the class
 #Program the class so that users of the class only need to interact with its methods
+
 from person import Person
 
-raise_amount= 0.04
 class Staff(Person):
-    def __init__(self, name, salary, amount):
+    raise_amount = 0.04  # Class variable for raise percentage
+
+    def __init__(self, name, salary):
         super().__init__(name)
-        self.salary=salary
-    def giveRaise(self, amount):
-        current_salary= int(self.salary * Person.raise_amount)        
+        self.salary = salary
 
-        
-    def getSalary(self):
+    def give_raise(self):
+        self.salary = int(self.salary * (1 + self.raise_amount))
+
+    def get_salary(self):
         return self.salary
-
         
         
