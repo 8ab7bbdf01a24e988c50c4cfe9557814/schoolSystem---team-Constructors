@@ -4,7 +4,7 @@
 from person import Person
 
 raise_amount= 0.04
-class StaffPerson:
+class Staff(Person):
     def __init__(self, name, salary, amount):
         super().__init__(name)
         self.salary=salary
