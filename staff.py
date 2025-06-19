@@ -4,4 +4,7 @@
 
 class Staff:
     def __init__(self, name, salary):
-        pass
+        super().__init__(name)
+        self.salary=salary
+        
+        
