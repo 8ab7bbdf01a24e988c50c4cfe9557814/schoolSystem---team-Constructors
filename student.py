@@ -4,7 +4,7 @@
 
 #kate was herez😵
 
-import Person
+from person import Person
 
 class Student(Person):
     test = 1
