@@ -1,11 +1,4 @@
-#Create a generalised Person class in this file
-#Accept and assign agreed parameters in the constructor and define agreed public methods in the class
-#Program the class so that users of the class only need to interact with its methods
-
-#Create a generalised Person class in this file
-#Accept and assign agreed parameters in the constructor and define agreed public methods in the class
-#Program the class so that users of the class only need to interact with its methods
-
+Ts so ahh. make it better
 class Person:
     population = []
     def __init__(self, name, age):
