@@ -10,9 +10,7 @@ class Student(Person):
     test = 1
     def __init__(self, name, schoolYear):
         super().__init__(name)
-        self.schoolYear=schoolYear
-        super().__init__(info)
-        
+        self.schoolYear=schoolYear        
     
     def getSchoolYear(self, schoolYear):
         print(f"{self.Person} school year is {current_Year}")
