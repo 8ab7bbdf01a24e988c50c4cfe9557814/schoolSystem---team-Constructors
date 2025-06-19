@@ -13,7 +13,7 @@ class Student(Person):
         self.schoolYear=schoolYear        
     
     def getSchoolYear(self, schoolYear):
-        print(f"{self.Person} school year is {current_Year}")
+        return self.schoolYear
      
     def setSchoolYear(self, schoolYear):
         current_year=input("Set school year: ")
