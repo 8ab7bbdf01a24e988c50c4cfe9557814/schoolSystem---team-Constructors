@@ -11,6 +11,7 @@ class Student(Person):
     def __init__(self, name, schoolYear):
         super().__init__(name)
         self.schoolYear=schoolYear
+        super().__init__(info)
         
     
     def getSchoolYear(self, schoolYear):
