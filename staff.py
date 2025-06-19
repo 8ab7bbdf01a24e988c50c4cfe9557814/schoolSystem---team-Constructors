@@ -8,7 +8,7 @@ class Staff:
     def __init__(self, name, salary, amount):
         super().__init__(name)
         self.salary=salary
-    def giveRaise(amount):
+    def giveRaise(self, amount):
         current_salary= int(self.salary * Person.raise_amount)        
 
         
