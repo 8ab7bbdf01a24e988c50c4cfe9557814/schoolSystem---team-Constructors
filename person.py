@@ -1,6 +1,5 @@
 Ts so ahh. make it better
 class Person:
-    population = []
     def __init__(self, name, age):
         self.name = name
         self.age = age
